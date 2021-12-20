@@ -1,7 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document, Schema as MongooseSchema } from 'mongoose';
 
-import { Review } from '../review/review.schema';
+import { Review } from '../reviews/review.schema';
 
 @Schema()
 export class Book {
